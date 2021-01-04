@@ -7,7 +7,8 @@
 
 ## 기록
 
-21/01/04 Header부분 제작(self)
+21/01/04
+Header부분 제작(self)
 BEM 방식 Block, Element, Modifier로 구성되어 있으며, 각각 \_\_와 --로 구분한다. ex) button--focus
 header를 크게 menugroup과 signgroup으로 나누고, menu 그룹 안에는 logo, menu로 구성하며, sign그룹은 service, search, sign button그룹으로 나눈다.
 
