@@ -21,3 +21,7 @@ Visual 부분을 text부분과, singupform부분으로 나누어 구현한다.<b
 Visual css 작성
 
 ## 애러 사항 및 해결 방안
+
+logo svg 색깔 변경 방법<br>
+button--primary hover시 효과 적용 어려움<br>
+visual 부분 가상 콘텐츠 사용 배경 어두운 효과 적용 어려움<br>
