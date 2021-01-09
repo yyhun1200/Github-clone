@@ -16,5 +16,8 @@ header를 크게 menugroup과 signgroup으로 나누고, menu 그룹 안에는 l
 21/01/06<br>
 Visual부분 제작(self)<br>
 Visual 부분을 text부분과, singupform부분으로 나누어 구현한다.<br>
+<br>
+21/01/09<br>
+Visual css 작성
 
 ## 애러 사항 및 해결 방안
