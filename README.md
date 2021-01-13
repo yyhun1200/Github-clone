@@ -18,7 +18,10 @@ Visual부분 제작(self)<br>
 Visual 부분을 text부분과, singupform부분으로 나누어 구현한다.<br>
 <br>
 21/01/09<br>
-Visual css 작성
+Visual css 작성 및 header 부분 수정 보완<br>
+<br>
+21/01/13<br>
+Feature html mark up
 
 ## 애러 사항 및 해결 방안
 
