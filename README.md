@@ -21,7 +21,10 @@ Visual 부분을 text부분과, singupform부분으로 나누어 구현한다.<b
 Visual css 작성 및 header 부분 수정 보완<br>
 <br>
 21/01/13<br>
-Feature html mark up
+Feature html mark up<br>
+<br>
+21/1/17<br>
+Map html mark up
 
 ## 애러 사항 및 해결 방안
 
