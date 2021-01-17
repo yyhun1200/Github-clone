@@ -24,10 +24,11 @@ Visual css 작성 및 header 부분 수정 보완<br>
 Feature html mark up<br>
 <br>
 21/1/17<br>
-Map html mark up
+Map html & css mark up
 
 ## 애러 사항 및 해결 방안
 
 logo svg 색깔 변경 방법<br>
 button--primary hover시 효과 적용 어려움<br>
 visual 부분 가상 콘텐츠 사용 배경 어두운 효과 적용 어려움<br>
+구글 맵 api사용 어려움
