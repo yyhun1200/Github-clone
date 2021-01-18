@@ -1,106 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Github</title>
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/styles.css">
-</head>
-<body>
-  <div class="wrapper">
-    <header>
-      <div class="menugroup">
-        <div class="logo"><img src="./img/logo.svg" alt="logo"></div>
-        <div class="menu">
-          <ul class="menu__ul">
-            <li>Personal</li>
-            <li>Open source</li>
-            <li>Business</li>
-            <li>Explore</li>
-          </ul>
-        </div>
-      </div>
-      <div class="signgroup">
-        <div class="mobile">
-          <!-- hambuger -->
-        </div>
-        <div class="signbtn">
-          <button class="button signbtn__button">Sign in</button>
-          <button class="button button--primary signbtn__button">Sign up</button>
-        </div>
-        <div class="search">
-          <input type="text" class="search__input" placeholder="Search Github">
-        </div>
-        <div class="service">
-        <ul class="service__ul">
-          <li>Pricing</li>
-          <li>Blog</li>
-          <li>Support</li>
-        </ul>
-      </div>
-      </div>
-    </header>
-    <section class="visual">
-      <div class="text">
-        <h1>How people build software</h1>
-        <p>Millions of developers use GitHub to build personal projects, support their businesses, and work together on open source technologies.</p>
-      </div>
-      <div class="signupform">
-        <form action="submit" >
-          <input type="text" placeholder="Pick a user name">
-          <input type="email" placeholder="Your email adress">
-          <input type="password" placeholder="Create a password">
-          <span>
-            Use at least one letter, one numeral, and seven characters.
-          </span> 
-          <button class="button button--primary">Sign up for Github</button>
-          <span>
-            By clicking "Sign up for GitHub", you agree to our terms of service and privacy policy. We'll occasionally send you account related emails.
-          </span>
-        </form>
-      </div>
-    </section>
-    <section class="feature">
-      <div class="summary">
-        <span class="summary__title">Welcome home, developers</span><br>
-        <span class="summary__desciption">GitHub fosters a fast, flexible and collaborative development process that<br> lets you work on your own or with others</span>
-      </div>
-      <div class="video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/afvT1c1ii0c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-      <div class="tile">
-        <div class="tile__container">
-          <div class="tile__item">
-            <img src="./img/feature-tile__build.png" alt="build">
-            <div class="item__title">For everything you build</div>
-            <div class="item__desciption">Host and manage your code on GitHub. You can keep your work private or share it with the world</div>
-          </div>
-          <div class="tile__item">
-            <img src="./img/feature-tile__work.png" alt="work">
-            <div class="item__title">A better way to work</div>
-            <div class="item__desciption">From hobbyists to professionals, GitHub helps developers simplify the way they build software.</div>
-          </div>
-          <div class="tile__item">
-            <img src="./img/feature-tile__projects.png" alt="project">
-            <div class="item__title">Millions of projects</div>
-            <div class="item__desciption">GitHub is home to millions of open source projects. Try one out or get inspired to create your own.</div>
-          </div>
-          <div class="tile__item">
-            <img src="./img/feature-tile__platform.png" alt="platform">
-            <div class="item__title">One platform, from start to finish</div>
-            <div class="item__desciption">With hundreds of integrations, GitHub is flexible enough to be at the center of your development process.</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Github</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="menugroup">
+          <div class="logo"><img src="./img/logo.svg" alt="logo" /></div>
+          <div class="menu">
+            <ul class="menu__ul">
+              <li>Personal</li>
+              <li>Open source</li>
+              <li>Business</li>
+              <li>Explore</li>
+            </ul>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="map">
-      <div class="summary">
-        <span class="summary__title">Where is GitHub?</span><br>
-        <span class="summary__desciption">GitHub is where people build software. More than 18 million people use GitHub to <br>discover, fork, and contribute to over 48 million projects.</span>
-      </div>
-      <div class="mapViewer"></div>
-    </section>
-  </div>
-</body>
+        <div class="signgroup">
+          <div class="mobile">
+            <!-- hambuger -->
+          </div>
+          <div class="signbtn">
+            <button class="button signbtn__button">Sign in</button>
+            <button class="button button--primary signbtn__button">
+              Sign up
+            </button>
+          </div>
+          <div class="search">
+            <input
+              type="text"
+              class="search__input"
+              placeholder="Search Github"
+            />
+          </div>
+          <div class="service">
+            <ul class="service__ul">
+              <li>Pricing</li>
+              <li>Blog</li>
+              <li>Support</li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <section class="visual">
+        <div class="text">
+          <h1>How people build software</h1>
+          <p>
+            Millions of developers use GitHub to build personal projects,
+            support their businesses, and work together on open source
+            technologies.
+          </p>
+        </div>
+        <div class="signupform">
+          <form action="submit">
+            <input type="text" placeholder="Pick a user name" />
+            <input type="email" placeholder="Your email adress" />
+            <input type="password" placeholder="Create a password" />
+            <span>
+              Use at least one letter, one numeral, and seven characters.
+            </span>
+            <button class="button button--primary">Sign up for Github</button>
+            <span>
+              By clicking "Sign up for GitHub", you agree to our terms of
+              service and privacy policy. We'll occasionally send you account
+              related emails.
+            </span>
+          </form>
+        </div>
+      </section>
+      <section class="feature">
+        <div class="summary">
+          <span class="summary__title">Welcome home, developers</span><br />
+          <span class="summary__desciption"
+            >GitHub fosters a fast, flexible and collaborative development
+            process that<br />
+            lets you work on your own or with others</span
+          >
+        </div>
+        <div class="video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/afvT1c1ii0c"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="tile">
+          <div class="tile__container">
+            <div class="tile__item">
+              <img src="./img/feature-tile__build.png" alt="build" />
+              <div class="item__title">For everything you build</div>
+              <div class="item__desciption">
+                Host and manage your code on GitHub. You can keep your work
+                private or share it with the world
+              </div>
+            </div>
+            <div class="tile__item">
+              <img src="./img/feature-tile__work.png" alt="work" />
+              <div class="item__title">A better way to work</div>
+              <div class="item__desciption">
+                From hobbyists to professionals, GitHub helps developers
+                simplify the way they build software.
+              </div>
+            </div>
+            <div class="tile__item">
+              <img src="./img/feature-tile__projects.png" alt="project" />
+              <div class="item__title">Millions of projects</div>
+              <div class="item__desciption">
+                GitHub is home to millions of open source projects. Try one out
+                or get inspired to create your own.
+              </div>
+            </div>
+            <div class="tile__item">
+              <img src="./img/feature-tile__platform.png" alt="platform" />
+              <div class="item__title">One platform, from start to finish</div>
+              <div class="item__desciption">
+                With hundreds of integrations, GitHub is flexible enough to be
+                at the center of your development process.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="map">
+        <div class="summary">
+          <span class="summary__title">Where is GitHub?</span><br />
+          <span class="summary__desciption"
+            >GitHub is where people build software. More than 18 million people
+            use GitHub to <br />discover, fork, and contribute to over 48
+            million projects.</span
+          >
+        </div>
+        <div class="mapViewer"></div>
+      </section>
+      <section class="pricing">
+        <div class="pricing__container">
+          <div class="cell1">
+            <button class="button button--primary">Sign up for Github</button>
+          </div>
+          <div class="cell2">
+            <p>
+              Public projects are always free. Work together across unlimited
+              private repositories for $7 / month
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
 </html>

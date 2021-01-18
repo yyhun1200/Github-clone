@@ -24,7 +24,10 @@ Visual css 작성 및 header 부분 수정 보완<br>
 Feature html mark up<br>
 <br>
 21/1/17<br>
-Map html & css mark up
+Map html & css mark up<br>
+<br>
+21/1/18<br>
+pricing html & css markup
 
 ## 애러 사항 및 해결 방안
 
